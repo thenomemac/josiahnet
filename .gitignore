@@ -1,0 +1,67 @@
+vendor/
+**/*.log
+**/*.sqlite
+.idea/
+bin/
+tmp/
+node_modules/
+.sass-cache/
+*-packr.go
+public/assets/
+gofish
+.vscode/
+.grifter/
+.env
+
+# custom
+data/
+imgs/
+db/
+uploads/
+
+# emacs
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
